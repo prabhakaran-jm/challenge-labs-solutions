@@ -1,8 +1,7 @@
-export ZONE=
-export INSTANCE_NAME=
-export PORT=
-export FIREWALL_NAME=
-  
+export ZONE=  
+export INSTANCE_NAME=  
+export PORT=  
+export FIREWALL_NAME=  
   
   
 export REGION=${ZONE::-2}
