@@ -2,7 +2,9 @@ export ZONE=
 export INSTANCE_NAME=
 export PORT=
 export FIREWALL_NAME=
-
+  
+  
+  
 export REGION=${ZONE::-2}
 gcloud compute instances create $INSTANCE_NAME \
 --zone $ZONE \
